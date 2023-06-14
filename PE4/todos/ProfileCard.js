@@ -62,7 +62,38 @@ class ProfileCard extends Component {
                 </Text>
             </View>
            </View>
-          <ProfileCard />
+            <ProfileCard />
+            <View style={styles.cardContainer}>
+            <View style={styles.cardImageContainer}>
+                <Image style={styles.cardImage} source={require('./assets/user.png')} />
+            </View>
+            <View>
+                <Text style={styles.cardName}>Mark Ryan</Text>
+            </View>
+            <View style={styles.cardOccupationContainer}>
+             <Text style={styles.cardOccupation}>React Native Developer</Text>
+            </View>
+            <View>
+             <Text style={styles.cardDescription}>
+                 Mark is a really great JavaScript developer. He loves using JS to build React Native applications for iOS.
+                </Text>
+           </View>
+           </View>
+            <ProfileCard />
+            <View style={styles.cardContainer}>
+            <View style={styles.cardImageContainer}>
+                <Image style={styles.cardImage} source={require('./assets/user.png')} />
+           </View>
+           <View>
+              <Text style={styles.cardName}>Megan Smith</Text>
+           </View>
+           <View style={styles.cardOccupationContainer}>
+             <Text style={styles.cardOccupation}>React Native Developer</Text>
+           </View>
+            View>
+             <Text style={styles.cardDescription}>
+                 Megan is a really great JavaScript developer. She loves using JS to build React Native applications for iOS.
+                </Text>
         </ScrollView>
       );
     }
